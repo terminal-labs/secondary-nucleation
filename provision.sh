@@ -34,5 +34,3 @@ done
 
 echo "Running highstate. Waiting..."
 salt \* state.highstate --force-color
-
-#bash /vagrant/inflation_resources/scripts/salt_commands.sh
