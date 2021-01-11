@@ -1,0 +1,21 @@
+ubuntu_512mb:
+  provider: aws
+  size: t2.nano
+ubuntu_1024mb:
+  provider: aws
+  size: t2.micro
+ubuntu_2048mb:
+  provider: aws
+  size: t2.small
+ubuntu_4096mb:
+  provider: aws
+  size: t2.medium
+ubuntu_8192mb:
+  provider: aws
+  size: t2.large
+ubuntu_16384mb:
+  provider: aws
+  size: t2.xlarge
+ubuntu_32768mb:
+  provider: aws
+  size: t2.2xlarge

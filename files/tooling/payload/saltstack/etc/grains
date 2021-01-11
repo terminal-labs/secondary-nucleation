@@ -1,0 +1,6 @@
+roles:
+  - master
+deescalated_user: vagrant
+user_home_dir: /home/vagrant
+user: vagrant
+group: vagrant

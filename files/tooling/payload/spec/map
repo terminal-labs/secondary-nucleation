@@ -1,0 +1,11 @@
+ubuntu_8192mb:
+  - hadoop-ambari:
+      grains:
+        deescalated_user: vagrant
+        project: website
+        domain: test.local
+  - hadoop-edgenode:
+      grains:
+        deescalated_user: vagrant
+        project: website
+        domain: test.local

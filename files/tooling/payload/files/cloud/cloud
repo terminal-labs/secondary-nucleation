@@ -1,0 +1,14 @@
+aws:
+  driver: 'ec2'
+  id: 'AKIA2MVIN4BVLYXJSLCC'
+  key: 'moK67gHUGi7mfprngbyBW/IyQz6HCyf3aZBMiPCB'
+  image: 'ami-008b09448b998a562'
+  location: 'us-west-2'
+  availability_zone: 'us-west-2b'
+  securitygroup: 'salted_server'
+  ssh_username: 'ubuntu'
+  private_key: '/home/saltmaster/salt_controlplane/keys/salt_cluster.pem'
+  keyname: 'salt_cluster'
+  deploy: True
+  minion:
+    master: '172.31.43.11'
