@@ -2,8 +2,8 @@ import boto3
 
 ec2 = boto3.client('ec2',
                    'us-west-2',
-                   aws_access_key_id='AKIA2MVIN4BVLYXJSLCC',
-                   aws_secret_access_key='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')
+                   aws_access_key_id='###',
+                   aws_secret_access_key='####')
 
 #This function will describe all the instances
 #with their current state
