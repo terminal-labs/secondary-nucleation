@@ -1,7 +1,7 @@
 aws:
   driver: 'ec2'
-  id: 'AKIA2MVIN4BVLYXJSLCC'
-  key: 'moK67gHUGi7mfprngbyBW/IyQz6HCyf3aZBMiPCB'
+  id: '####'
+  key: '####'
   image: 'ami-008b09448b998a562'
   location: 'us-west-2'
   availability_zone: 'us-west-2b'
